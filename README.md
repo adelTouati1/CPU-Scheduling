@@ -8,8 +8,11 @@ max-heap can be made by calling the compareTo method of Process.
 
 ## Usage
 
+```java
 java CPUScheduling <maxProcessTime> <maxPriorityLevel> <timeToIncrementPriority>
 <simulationTime> <processArrivalRate>
+```
+
 where
 - maxProcessTime: largest possible time units required to finish a process;
 - maxPriorityLevel: highest possible priority in this simulation. That is, a process can
